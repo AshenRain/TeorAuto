@@ -1,0 +1,8 @@
+﻿  Source.cpp
+C:\Users\Empty\source\repos\TeorAuto_Laba5\TeorAuto_Laba5\Source.cpp(35,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Empty\source\repos\TeorAuto_Laba5\TeorAuto_Laba5\Source.cpp(46,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Empty\source\repos\TeorAuto_Laba5\TeorAuto_Laba5\Source.cpp(56,12): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Empty\source\repos\TeorAuto_Laba5\TeorAuto_Laba5\Source.cpp(194,13): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Empty\source\repos\TeorAuto_Laba5\TeorAuto_Laba5\Source.cpp(198,21): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Empty\source\repos\TeorAuto_Laba5\TeorAuto_Laba5\Source.cpp(22,6): warning C4101: i: неиспользованная локальная переменная
+  TeorAuto_Laba5.vcxproj -> C:\Users\Empty\source\repos\TeorAuto_Laba5\Debug\TeorAuto_Laba5.exe
