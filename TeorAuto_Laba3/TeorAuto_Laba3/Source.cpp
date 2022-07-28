@@ -6,7 +6,7 @@
 #include <iomanip>
 
 
-//void charVdouble(char(&array)[30][5], double(&mass)[5][5]);	// перевод из char в double
+//void charVdouble(char(&array)[30][5], double(&mass)[5][5]);	// РїРµСЂРµРІРѕРґ РёР· char РІ double
 void stringVdouble(std::string(&array)[25], double(&mass)[5][5]);
 
 int main() 
@@ -21,11 +21,11 @@ int main()
 	#pragma region kk file
 	std::ifstream file("kk.txt");
 	g = 0;
-	if (file.is_open()) // вызов метода is_open()
-		std::cout << " Файл kk успешно открыт!\n\n" << std::endl;
+	if (file.is_open()) // РІС‹Р·РѕРІ РјРµС‚РѕРґР° is_open()
+		std::cout << " Р¤Р°Р№Р» kk СѓСЃРїРµС€РЅРѕ РѕС‚РєСЂС‹С‚!\n\n" << std::endl;
 	else
 	{
-		std::cout << "Файл не открыт!\n\n" << std::endl;
+		std::cout << "Р¤Р°Р№Р» РЅРµ РѕС‚РєСЂС‹С‚!\n\n" << std::endl;
 		return -1;
 	}
 	
@@ -52,11 +52,11 @@ int main()
 
 	std::ifstream file1("k1.txt");
 	g = 0;
-	if (file1.is_open()) // вызов метода is_open()
-		std::cout << " Файл k1 успешно открыт!\n\n" << std::endl;
+	if (file1.is_open()) // РІС‹Р·РѕРІ РјРµС‚РѕРґР° is_open()
+		std::cout << " Р¤Р°Р№Р» k1 СѓСЃРїРµС€РЅРѕ РѕС‚РєСЂС‹С‚!\n\n" << std::endl;
 	else
 	{
-		std::cout << "Файл не открыт!\n\n" << std::endl;
+		std::cout << "Р¤Р°Р№Р» РЅРµ РѕС‚РєСЂС‹С‚!\n\n" << std::endl;
 		return -1;
 	}
 
@@ -81,11 +81,11 @@ int main()
 	#pragma region k2 file
 	std::ifstream file2("k2.txt");
 	g = 0;
-	if (file2.is_open()) // вызов метода is_open()
-		std::cout << " Файл k2 успешно открыт!\n\n" << std::endl;
+	if (file2.is_open()) // РІС‹Р·РѕРІ РјРµС‚РѕРґР° is_open()
+		std::cout << " Р¤Р°Р№Р» k2 СѓСЃРїРµС€РЅРѕ РѕС‚РєСЂС‹С‚!\n\n" << std::endl;
 	else
 	{
-		std::cout << "Файл не открыт!\n\n" << std::endl;
+		std::cout << "Р¤Р°Р№Р» РЅРµ РѕС‚РєСЂС‹С‚!\n\n" << std::endl;
 		return -1;
 	}
 
@@ -111,11 +111,11 @@ int main()
 
 	std::ifstream file3("k3.txt");
 	g = 0;
-	if (file3.is_open()) // вызов метода is_open()
-		std::cout << " Файл k3 успешно открыт!\n\n" << std::endl;
+	if (file3.is_open()) // РІС‹Р·РѕРІ РјРµС‚РѕРґР° is_open()
+		std::cout << " Р¤Р°Р№Р» k3 СѓСЃРїРµС€РЅРѕ РѕС‚РєСЂС‹С‚!\n\n" << std::endl;
 	else
 	{
-		std::cout << "Файл не открыт!\n\n" << std::endl;
+		std::cout << "Р¤Р°Р№Р» РЅРµ РѕС‚РєСЂС‹С‚!\n\n" << std::endl;
 		return -1;
 	}
 
@@ -140,11 +140,11 @@ int main()
 	#pragma region k4 file
 	std::ifstream file4("k4.txt");
 	g = 0;
-	if (file4.is_open()) // вызов метода is_open()
-		std::cout << " Файл k4 успешно открыт!\n\n" << std::endl;
+	if (file4.is_open()) // РІС‹Р·РѕРІ РјРµС‚РѕРґР° is_open()
+		std::cout << " Р¤Р°Р№Р» k4 СѓСЃРїРµС€РЅРѕ РѕС‚РєСЂС‹С‚!\n\n" << std::endl;
 	else
 	{
-		std::cout << "Файл не открыт!\n\n" << std::endl;
+		std::cout << "Р¤Р°Р№Р» РЅРµ РѕС‚РєСЂС‹С‚!\n\n" << std::endl;
 		return -1;
 	}
 
@@ -170,11 +170,11 @@ int main()
 
 	std::ifstream file5("k5.txt");
 	g = 0;
-	if (file5.is_open()) // вызов метода is_open()
-		std::cout << " Файл k5 успешно открыт!\n\n" << std::endl;
+	if (file5.is_open()) // РІС‹Р·РѕРІ РјРµС‚РѕРґР° is_open()
+		std::cout << " Р¤Р°Р№Р» k5 СѓСЃРїРµС€РЅРѕ РѕС‚РєСЂС‹С‚!\n\n" << std::endl;
 	else
 	{
-		std::cout << "Файл не открыт!\n\n" << std::endl;
+		std::cout << "Р¤Р°Р№Р» РЅРµ РѕС‚РєСЂС‹С‚!\n\n" << std::endl;
 		return -1;
 	}
 
@@ -198,17 +198,17 @@ int main()
 	#pragma endregion
 
 	#pragma region KK raschet
-	std::cout << "\nРасчет значений для kk" << std::endl;
-	//рассчитаем среднее геометрическое для каждой строки каждой таблицы
+	std::cout << "\nР Р°СЃС‡РµС‚ Р·РЅР°С‡РµРЅРёР№ РґР»СЏ kk" << std::endl;
+	//СЂР°СЃСЃС‡РёС‚Р°РµРј СЃСЂРµРґРЅРµРµ РіРµРѕРјРµС‚СЂРёС‡РµСЃРєРѕРµ РґР»СЏ РєР°Р¶РґРѕР№ СЃС‚СЂРѕРєРё РєР°Р¶РґРѕР№ С‚Р°Р±Р»РёС†С‹
 	int i = 0;
-	double sumV = 0;	//нормирующий коэффициент
-	double gV[5];		//произведение строки
-	double v_W[5];		//вектор приоритетов
-	double sumS[5];		//сумма столбцов
-	double sumP = 0;	//максимальное среднее значение
-	double id;			//индекс согласованности ИС
-	double idS = 1.12;  //случайный индекс согласованности
-	double os;			//отношение согласованности ОС
+	double sumV = 0;	//РЅРѕСЂРјРёСЂСѓСЋС‰РёР№ РєРѕСЌС„С„РёС†РёРµРЅС‚
+	double gV[5];		//РїСЂРѕРёР·РІРµРґРµРЅРёРµ СЃС‚СЂРѕРєРё
+	double v_W[5];		//РІРµРєС‚РѕСЂ РїСЂРёРѕСЂРёС‚РµС‚РѕРІ
+	double sumS[5];		//СЃСѓРјРјР° СЃС‚РѕР»Р±С†РѕРІ
+	double sumP = 0;	//РјР°РєСЃРёРјР°Р»СЊРЅРѕРµ СЃСЂРµРґРЅРµРµ Р·РЅР°С‡РµРЅРёРµ
+	double id;			//РёРЅРґРµРєСЃ СЃРѕРіР»Р°СЃРѕРІР°РЅРЅРѕСЃС‚Рё РРЎ
+	double idS = 1.12;  //СЃР»СѓС‡Р°Р№РЅС‹Р№ РёРЅРґРµРєСЃ СЃРѕРіР»Р°СЃРѕРІР°РЅРЅРѕСЃС‚Рё
+	double os;			//РѕС‚РЅРѕС€РµРЅРёРµ СЃРѕРіР»Р°СЃРѕРІР°РЅРЅРѕСЃС‚Рё РћРЎ
 	while (i < 5) {
 		int j = 0;
 		gV[i] = 1;
@@ -223,7 +223,7 @@ int main()
 	}
 
 	i = 0;
-	std::cout << "Вектор приоритетов | Пропорциональность предпочтений" << std::endl;
+	std::cout << "Р’РµРєС‚РѕСЂ РїСЂРёРѕСЂРёС‚РµС‚РѕРІ | РџСЂРѕРїРѕСЂС†РёРѕРЅР°Р»СЊРЅРѕСЃС‚СЊ РїСЂРµРґРїРѕС‡С‚РµРЅРёР№" << std::endl;
 	while (i < 5)
 	{
 		v_W[i] = pow(gV[i], 0.2) / sumV;
@@ -235,8 +235,8 @@ int main()
 	os = id / idS;
 	std::cout << "\nsumV = " << round(sumV * 100) / 100 << std::endl;
 	std::cout << "sumP = " << round(sumP * 100) / 100 << std::endl;
-	std::cout << "ИС = " << round(id * 1000) / 1000 << std::endl;
-	std::cout << "ОС = " << round(os * 1000) / 1000 << std::endl;
+	std::cout << "РРЎ = " << round(id * 1000) / 1000 << std::endl;
+	std::cout << "РћРЎ = " << round(os * 1000) / 1000 << std::endl;
 
 	#pragma endregion
 
@@ -247,21 +247,21 @@ int main()
 	matx.push_back(&k4[0][0]);
 	matx.push_back(&k5[0][0]);
 
-	double prioriW[5];		//приоритеты альтернатив 
+	double prioriW[5];		//РїСЂРёРѕСЂРёС‚РµС‚С‹ Р°Р»СЊС‚РµСЂРЅР°С‚РёРІ 
 	int k = 0;
 	while (k < 5) {
 		
-		std::cout << "\nРасчет значений для k" << k + 1 << std::endl;
-		//рассчитаем среднее геометрическое для каждой строки каждой таблицы
+		std::cout << "\nР Р°СЃС‡РµС‚ Р·РЅР°С‡РµРЅРёР№ РґР»СЏ k" << k + 1 << std::endl;
+		//СЂР°СЃСЃС‡РёС‚Р°РµРј СЃСЂРµРґРЅРµРµ РіРµРѕРјРµС‚СЂРёС‡РµСЃРєРѕРµ РґР»СЏ РєР°Р¶РґРѕР№ СЃС‚СЂРѕРєРё РєР°Р¶РґРѕР№ С‚Р°Р±Р»РёС†С‹
 		int i = 0;
-		double sumV = 0;	//нормирующий коэффициент
-		double gV[5];		//произведение строки
-		double vW[5];		//вектор приоритетов
-		double sumS[5];		//сумма столбцов
-		double sumP = 0;	//максимальное среднее значение
-		double id;			//индекс согласованности ИС
-		double idS = 1.12;  //случайный индекс согласованности
-		double os;			//отношение согласованности ОС
+		double sumV = 0;	//РЅРѕСЂРјРёСЂСѓСЋС‰РёР№ РєРѕСЌС„С„РёС†РёРµРЅС‚
+		double gV[5];		//РїСЂРѕРёР·РІРµРґРµРЅРёРµ СЃС‚СЂРѕРєРё
+		double vW[5];		//РІРµРєС‚РѕСЂ РїСЂРёРѕСЂРёС‚РµС‚РѕРІ
+		double sumS[5];		//СЃСѓРјРјР° СЃС‚РѕР»Р±С†РѕРІ
+		double sumP = 0;	//РјР°РєСЃРёРјР°Р»СЊРЅРѕРµ СЃСЂРµРґРЅРµРµ Р·РЅР°С‡РµРЅРёРµ
+		double id;			//РёРЅРґРµРєСЃ СЃРѕРіР»Р°СЃРѕРІР°РЅРЅРѕСЃС‚Рё РРЎ
+		double idS = 1.12;  //СЃР»СѓС‡Р°Р№РЅС‹Р№ РёРЅРґРµРєСЃ СЃРѕРіР»Р°СЃРѕРІР°РЅРЅРѕСЃС‚Рё
+		double os;			//РѕС‚РЅРѕС€РµРЅРёРµ СЃРѕРіР»Р°СЃРѕРІР°РЅРЅРѕСЃС‚Рё РћРЎ
 		while (i < 5) {
 			int j = 0;
 			gV[i] = 1;
@@ -277,21 +277,21 @@ int main()
 
 		i = 0;
 		prioriW[k] = 0;
-		std::cout << "Вектор приоритетов | Пропорциональность предпочтений" << std::endl;
+		std::cout << "Р’РµРєС‚РѕСЂ РїСЂРёРѕСЂРёС‚РµС‚РѕРІ | РџСЂРѕРїРѕСЂС†РёРѕРЅР°Р»СЊРЅРѕСЃС‚СЊ РїСЂРµРґРїРѕС‡С‚РµРЅРёР№" << std::endl;
 		while (i < 5)
 		{
 			vW[i] = pow(gV[i], 0.2) / sumV;
 			std::cout << i + 1 << ". " << round(vW[i] * 1000) / 1000 << std::setw(12) << "|" << round(sumS[i] * vW[i] * 100) / 100 << std::endl;
 			sumP += sumS[i] * vW[i];
-			prioriW[k] += vW[i] * v_W[i]; // рассчет относительной важности
+			prioriW[k] += vW[i] * v_W[i]; // СЂР°СЃСЃС‡РµС‚ РѕС‚РЅРѕСЃРёС‚РµР»СЊРЅРѕР№ РІР°Р¶РЅРѕСЃС‚Рё
 			i++;
 		}
 		id = (sumP - 5) / 4;
 		os = id / idS;
 		std::cout << "\nsumV = " << round(sumV * 100) / 100 << std::endl;
 		std::cout << "sumP = " << round(sumP * 100) / 100 << std::endl;
-		std::cout << "ИС = " << round(id * 1000) / 1000 << std::endl;
-		std::cout << "ОС = " << round(os * 1000) / 1000 << std::endl;
+		std::cout << "РРЎ = " << round(id * 1000) / 1000 << std::endl;
+		std::cout << "РћРЎ = " << round(os * 1000) / 1000 << std::endl;
 		k++;
 	}
 
