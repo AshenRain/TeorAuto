@@ -17,7 +17,7 @@ int main()
 
 	Sportsmen* N1 = new Sportsmen();
 	N1->id = 1;
-	N1->name = "Спиридонов";
+	N1->name = "РЎРїРёСЂРёРґРѕРЅРѕРІ";
 	N1->beg100 = 9.8;
 	N1->beg3km = 13.2;
 	N1->otgimania = 50; // 50
@@ -26,7 +26,7 @@ int main()
 
 	Sportsmen* N2 = new Sportsmen();
 	N2->id = 2;
-	N2->name = "Погодин";
+	N2->name = "РџРѕРіРѕРґРёРЅ";
 	N2->beg100 = 15;
 	N2->beg3km = 10;
 	N2->otgimania = 10;
@@ -35,7 +35,7 @@ int main()
 
 	Sportsmen* N3 = new Sportsmen();
 	N3->id = 3;
-	N3->name = "Сапожников";
+	N3->name = "РЎР°РїРѕР¶РЅРёРєРѕРІ";
 	N3->beg100 = 9.9;
 	N3->beg3km = 8.6;
 	N3->otgimania = 70;
@@ -44,7 +44,7 @@ int main()
 
 	Sportsmen* N4 = new Sportsmen();
 	N4->id = 4;
-	N4->name = "Воронков";
+	N4->name = "Р’РѕСЂРѕРЅРєРѕРІ";
 	N4->beg100 = 17;
 	N4->beg3km = 11;
 	N4->otgimania = 25;
@@ -53,7 +53,7 @@ int main()
 
 	Sportsmen* N5 = new Sportsmen();
 	N5->id = 5;
-	N5->name = "Владов";
+	N5->name = "Р’Р»Р°РґРѕРІ";
 	N5->beg100 = 10;
 	N5->beg3km = 9.8;
 	N5->otgimania = 55;
@@ -62,7 +62,7 @@ int main()
 
 	Sportsmen* N6 = new Sportsmen();
 	N6->id = 6;
-	N6->name = "Гранкин";
+	N6->name = "Р“СЂР°РЅРєРёРЅ";
 	N6->beg100 = 12;
 	N6->beg3km = 14;
 	N6->otgimania = 75;
@@ -71,7 +71,7 @@ int main()
 
 	Sportsmen* N7 = new Sportsmen();
 	N7->id = 7;
-	N7->name = "Волков";
+	N7->name = "Р’РѕР»РєРѕРІ";
 	N7->beg100 = 17;
 	N7->beg3km = 12;
 	N7->otgimania = 55;
@@ -80,7 +80,7 @@ int main()
 
 	Sportsmen* N8 = new Sportsmen();
 	N8->id = 8;
-	N8->name = "Савин";
+	N8->name = "РЎР°РІРёРЅ";
 	N8->beg100 = 22;
 	N8->beg3km = 15;
 	N8->otgimania = 25;
@@ -89,7 +89,7 @@ int main()
 
 	Sportsmen* N9 = new Sportsmen();
 	N9->id = 9;
-	N9->name = "Лужков";
+	N9->name = "Р›СѓР¶РєРѕРІ";
 	N9->beg100 = 10;
 	N9->beg3km = 9;
 	N9->otgimania = 40;
@@ -99,7 +99,7 @@ int main()
 
 	Sportsmen* N10 = new Sportsmen();
 	N10->id = 10;
-	N10->name = "Попов";
+	N10->name = "РџРѕРїРѕРІ";
 	N10->beg100 = 9;
 	N10->beg3km = 13;
 	N10->otgimania = 55;
@@ -108,7 +108,7 @@ int main()
 
 	Sportsmen* N11 = new Sportsmen();
 	N11->id = 11;
-	N11->name = "Гренков";
+	N11->name = "Р“СЂРµРЅРєРѕРІ";
 	N11->beg100 = 14;
 	N11->beg3km = 10;
 	N11->otgimania = 22;
@@ -117,7 +117,7 @@ int main()
 
 	Sportsmen* N12 = new Sportsmen();
 	N12->id = 12;
-	N12->name = "Петров";
+	N12->name = "РџРµС‚СЂРѕРІ";
 	N12->beg100 = 13;
 	N12->beg3km = 9;
 	N12->otgimania = 40;
@@ -126,7 +126,7 @@ int main()
 
 	Sportsmen* N13 = new Sportsmen();
 	N13->id = 13;
-	N13->name = "Сидоров";
+	N13->name = "РЎРёРґРѕСЂРѕРІ";
 	N13->beg100 = 12;
 	N13->beg3km = 9.5;
 	N13->otgimania = 70;
@@ -136,7 +136,7 @@ int main()
 
 	Sportsmen* N14 = new Sportsmen();
 	N14->id = 14;
-	N14->name = "Лодырев";
+	N14->name = "Р›РѕРґС‹СЂРµРІ";
 	N14->beg100 = 11.6;
 	N14->beg3km = 10.5;
 	N14->otgimania = 32;
@@ -146,7 +146,7 @@ int main()
 
 	Sportsmen* N15 = new Sportsmen();
 	N15->id = 15;
-	N15->name = "Коваленко";
+	N15->name = "РљРѕРІР°Р»РµРЅРєРѕ";
 	N15->beg100 = 12;
 	N15->beg3km = 10;
 	N15->otgimania = 78;
@@ -155,7 +155,7 @@ int main()
 
 	Sportsmen* N16 = new Sportsmen();
 	N16->id = 16;
-	N16->name = "Партриков";
+	N16->name = "РџР°СЂС‚СЂРёРєРѕРІ";
 	N16->beg100 = 15;
 	N16->beg3km = 14;
 	N16->otgimania = 20;
@@ -164,7 +164,7 @@ int main()
 
 	Sportsmen* N17 = new Sportsmen();
 	N17->id = 17;
-	N17->name = "Никитин";
+	N17->name = "РќРёРєРёС‚РёРЅ";
 	N17->beg100 = 14;
 	N17->beg3km = 12;
 	N17->otgimania = 21;
@@ -174,7 +174,7 @@ int main()
 
 	Sportsmen* N18 = new Sportsmen();
 	N18->id = 18;
-	N18->name = "Овалов";
+	N18->name = "РћРІР°Р»РѕРІ";
 	N18->beg100 = 9.7;
 	N18->beg3km = 9.7;
 	N18->otgimania = 32;
@@ -211,7 +211,7 @@ int main()
 		mySp[i]->printCh();
 	}
 
-	std::cout << "\n\nВыборка по Парето" << std::endl;
+	std::cout << "\n\nР’С‹Р±РѕСЂРєР° РїРѕ РџР°СЂРµС‚Рѕ" << std::endl;
 	std::cout << "  +-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+" << std::endl;
 	std::cout << "  |     ";
 	for (int i = 0; i < mySp.size(); i++) {
@@ -234,7 +234,7 @@ int main()
 				kr = 1;
 				sravnen(kr, *mySp[i], *mySp[j]);
 				if (kr == 1 || kr == 2) {
-					std::cout << std::setw(3) << std::right << "| А ";
+					std::cout << std::setw(3) << std::right << "| Рђ ";
 					if (kr == 1) {
 						std::cout << std::setw(2) << i + 1;
 						myFiltr2.push_back(mySp[i]);
@@ -243,18 +243,18 @@ int main()
 						std::cout << std::setw(2) << j + 1;
 						myFiltr2.push_back(mySp[j]);
 					}
-					//вставляет в вектор 
+					//РІСЃС‚Р°РІР»СЏРµС‚ РІ РІРµРєС‚РѕСЂ 
 					ko = 0;
 					while (ko < myFiltr2.size() - 1) {
 						if (myFiltr2[myFiltr2.size() - 1]->id == myFiltr2[ko]->id) {				//
 							myFiltr2.erase(myFiltr2.begin() + (myFiltr2.size()) - 1);			//
-							ko = myFiltr2.size();												// удаление
-						}																		// элементов
+							ko = myFiltr2.size();												// СѓРґР°Р»РµРЅРёРµ
+						}																		// СЌР»РµРјРµРЅС‚РѕРІ
 						ko++;																	//
 					}																			//
 				}
 				else {
-					std::cout << std::setw(5) << std::right << "|  н  ";
+					std::cout << std::setw(5) << std::right << "|  РЅ  ";
 
 				}
 			}
@@ -276,17 +276,17 @@ int main()
 #pragma endregion 
 
 #pragma region Ecsperctnay ocenka
-	// В mySp храняться выбранные по парето варианты
-	// myFiltr и myFiltr2(?) пустые 
+	// Р’ mySp С…СЂР°РЅСЏС‚СЊСЃСЏ РІС‹Р±СЂР°РЅРЅС‹Рµ РїРѕ РїР°СЂРµС‚Рѕ РІР°СЂРёР°РЅС‚С‹
+	// myFiltr Рё myFiltr2(?) РїСѓСЃС‚С‹Рµ 
 	myFiltr = mySp;
 
-	std::cout << "\n\n\n\nВвывод таблицы после экспертной оценки" << std::endl;
+	std::cout << "\n\n\n\nР’РІС‹РІРѕРґ С‚Р°Р±Р»РёС†С‹ РїРѕСЃР»Рµ СЌРєСЃРїРµСЂС‚РЅРѕР№ РѕС†РµРЅРєРё" << std::endl;
 	
 	//id | Sportsmen | beg 100m | beg 3km | podtyag | Otgim | Prigok |
 
 	
 	for (int i = 0; i < mySp.size(); i++) {
-		//Замена в связи с экспертной оценки
+		//Р—Р°РјРµРЅР° РІ СЃРІСЏР·Рё СЃ СЌРєСЃРїРµСЂС‚РЅРѕР№ РѕС†РµРЅРєРё
 		if (mySp[i]->beg100 > 10) mySp[i]->beg100 = 5;
 		else if (mySp[i]->beg100 < 12) mySp[i]->beg100 = 15;
 		else mySp[i]->beg100 = 10;
@@ -308,7 +308,7 @@ int main()
 
 
 
-		//Вывод
+		//Р’С‹РІРѕРґ
 		std::cout << std::setw(2) << std::right << mySp[i]->id << ". ";
 		std::cout << std::setw(12) << std::left << mySp[i]->name << std::setw(4) << mySp[i]->beg100 << "\t" << std::setw(4) << mySp[i]->beg3km << "\t" << std::setw(4) << mySp[i]->podtyag << "\t" << std::setw(4) << mySp[i]->otgimania << "\t" << std::setw(4) << mySp[i]->prigok << "\t" << std::endl;
 
@@ -317,7 +317,7 @@ int main()
 #pragma endregion
 
 #pragma region Matrix predpologeniu
-	// создаем двумерный вектор
+	// СЃРѕР·РґР°РµРј РґРІСѓРјРµСЂРЅС‹Р№ РІРµРєС‚РѕСЂ
 	//std::vector <std::vector<double>> array(mySp.size());
 	std::vector <std::vector<double>> array(mySp.size(), std::vector<double>(mySp.size()));
 	int k = 0, d = 0;
@@ -327,7 +327,7 @@ int main()
 		while (d < mySp.size()) 
 		{
 			if (d == k) {
-				d++; // чтобы не сравнивались одинаковые значения 
+				d++; // С‡С‚РѕР±С‹ РЅРµ СЃСЂР°РІРЅРёРІР°Р»РёСЃСЊ РѕРґРёРЅР°РєРѕРІС‹Рµ Р·РЅР°С‡РµРЅРёСЏ 
 				continue;
 			}
 
@@ -369,7 +369,7 @@ int main()
 
 	k = 0;
 
-	std::cout << "\n\nПолная матрица предположений" << std::endl;
+	std::cout << "\n\nРџРѕР»РЅР°СЏ РјР°С‚СЂРёС†Р° РїСЂРµРґРїРѕР»РѕР¶РµРЅРёР№" << std::endl;
 	std::cout << "  |     ";
 	for (int i = 0; i < mySp.size(); i++) {
 		if (i < 9)std::cout << std::setw(4) << std::right << "|  " << i + 1 << "  ";
@@ -404,7 +404,7 @@ int main()
 
 #pragma region Porog (c)
 	double c = 1.9;
-	std::cout << "\nУстановка порога c =" << c <<  std::endl;
+	std::cout << "\nРЈСЃС‚Р°РЅРѕРІРєР° РїРѕСЂРѕРіР° c =" << c <<  std::endl;
 	k = 0;
 	d = 0;
 	while (k < mySp.size())
@@ -413,7 +413,7 @@ int main()
 		while (d < mySp.size())
 		{
 			if (d == k) {
-				d++; // чтобы не сравнивались одинаковые значения 
+				d++; // С‡С‚РѕР±С‹ РЅРµ СЃСЂР°РІРЅРёРІР°Р»РёСЃСЊ РѕРґРёРЅР°РєРѕРІС‹Рµ Р·РЅР°С‡РµРЅРёСЏ 
 				continue;
 			}			
 			if (array[k][d] != 0 && array[k][d] < c)
