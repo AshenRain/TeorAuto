@@ -14,7 +14,7 @@ int main()
 	std::vector<Sportsmen*> myFiltr2;
 
 	Sportsmen *N1 = new Sportsmen();
-	N1->name = "Ñïèðèäîíîâ";
+	N1->name = "Ð¡Ð¿Ð¸Ñ€Ð¸Ð´Ð¾Ð½Ð¾Ð²";
 	N1->beg100 = 9.8;
 	N1->beg3km = 13.2;
 	N1->otgimania = 50; // 50
@@ -22,7 +22,7 @@ int main()
 	N1->prigok = 2.02;
 
 	Sportsmen *N2 = new Sportsmen();
-	N2->name = "Ïîãîäèí";
+	N2->name = "ÐŸÐ¾Ð³Ð¾Ð´Ð¸Ð½";
 	N2->beg100 = 15;
 	N2->beg3km = 10;
 	N2->otgimania = 10;
@@ -30,7 +30,7 @@ int main()
 	N2->prigok = 3;
 
 	Sportsmen *N3 = new Sportsmen();
-	N3->name = "Ñàïîæíèêîâ";
+	N3->name = "Ð¡Ð°Ð¿Ð¾Ð¶Ð½Ð¸ÐºÐ¾Ð²";
 	N3->beg100 = 9.9;
 	N3->beg3km = 8.6;
 	N3->otgimania = 70;
@@ -38,7 +38,7 @@ int main()
 	N3->prigok = 3;
 
 	Sportsmen *N4 = new Sportsmen();
-	N4->name = "Âîðîíêîâ";
+	N4->name = "Ð’Ð¾Ñ€Ð¾Ð½ÐºÐ¾Ð²";
 	N4->beg100 = 17;
 	N4->beg3km = 11;
 	N4->otgimania = 25;
@@ -46,7 +46,7 @@ int main()
 	N4->prigok = 1.7;
 
 	Sportsmen *N5 = new Sportsmen();
-	N5->name = "Âëàäîâ";
+	N5->name = "Ð’Ð»Ð°Ð´Ð¾Ð²";
 	N5->beg100 = 10;
 	N5->beg3km = 9.8;
 	N5->otgimania = 55;
@@ -54,7 +54,7 @@ int main()
 	N5->prigok = 2.5;
 
 	Sportsmen *N6 = new Sportsmen();
-	N6->name = "Ãðàíêèí";
+	N6->name = "Ð“Ñ€Ð°Ð½ÐºÐ¸Ð½";
 	N6->beg100 = 12;
 	N6->beg3km = 14;
 	N6->otgimania = 75;
@@ -62,7 +62,7 @@ int main()
 	N6->prigok = 2.5;
 
 	Sportsmen *N7 = new Sportsmen();
-	N7->name = "Âîëêîâ";
+	N7->name = "Ð’Ð¾Ð»ÐºÐ¾Ð²";
 	N7->beg100 = 17;
 	N7->beg3km = 12;
 	N7->otgimania = 55;
@@ -70,7 +70,7 @@ int main()
 	N7->prigok = 2.2;
 
 	Sportsmen *N8 = new Sportsmen();
-	N8->name = "Ñàâèí";
+	N8->name = "Ð¡Ð°Ð²Ð¸Ð½";
 	N8->beg100 = 22;
 	N8->beg3km = 15;
 	N8->otgimania = 25;
@@ -78,7 +78,7 @@ int main()
 	N8->prigok = 1.7;
 
 	Sportsmen *N9 = new Sportsmen();
-	N9->name = "Ëóæêîâ";
+	N9->name = "Ð›ÑƒÐ¶ÐºÐ¾Ð²";
 	N9->beg100 = 10;
 	N9->beg3km = 9;
 	N9->otgimania = 40;
@@ -102,16 +102,16 @@ int main()
 	}
 
 
-	std::cout << "\nÂûáîð ìåòîäà: " << std::endl;
-	std::cout << "1. Óêàçàíèå âåðõíèõ/íèæíèõ ãðàíèö êðèòåðèåâ" << std::endl;
-	std::cout << "2. Ñóáîïòèìèçàöèÿ" << std::endl;
-	std::cout << "3. Ëåêñèêîãðàôè÷åñêàÿ îïòèìèçàöèÿ" << std::endl;
+	std::cout << "\nÐ’Ñ‹Ð±Ð¾Ñ€ Ð¼ÐµÑ‚Ð¾Ð´Ð°: " << std::endl;
+	std::cout << "1. Ð£ÐºÐ°Ð·Ð°Ð½Ð¸Ðµ Ð²ÐµÑ€Ñ…Ð½Ð¸Ñ…/Ð½Ð¸Ð¶Ð½Ð¸Ñ… Ð³Ñ€Ð°Ð½Ð¸Ñ† ÐºÑ€Ð¸Ñ‚ÐµÑ€Ð¸ÐµÐ²" << std::endl;
+	std::cout << "2. Ð¡ÑƒÐ±Ð¾Ð¿Ñ‚Ð¸Ð¼Ð¸Ð·Ð°Ñ†Ð¸Ñ" << std::endl;
+	std::cout << "3. Ð›ÐµÐºÑÐ¸ÐºÐ¾Ð³Ñ€Ð°Ñ„Ð¸Ñ‡ÐµÑÐºÐ°Ñ Ð¾Ð¿Ñ‚Ð¸Ð¼Ð¸Ð·Ð°Ñ†Ð¸Ñ" << std::endl;
 
 	int n = 0;
 
 	while (n == 0) {
 
-		std::cout << "\n\nÂâîä:";
+		std::cout << "\n\nÐ’Ð²Ð¾Ð´:";
 		std::cin >> n;
 
 		if (n == 1) {
@@ -126,16 +126,16 @@ int main()
 			int vib = 0;
 
 			while (vib == 0) {
-				std::cout << "\nÂûáåðèå ãëàâíûé êðèòåðèé:" << std::endl;
-				std::cout << "1. Áåã 100ì" << std::endl;
-				std::cout << "2. Áåã 3êì" << std::endl;
-				std::cout << "3. Ïîäòÿãèâàíèÿ" << std::endl;
-				std::cout << "4. Îòæèìàíèÿ" << std::endl;
-				std::cout << "5. Ïðûæîê" << std::endl;
+				std::cout << "\nÐ’Ñ‹Ð±ÐµÑ€Ð¸Ðµ Ð³Ð»Ð°Ð²Ð½Ñ‹Ð¹ ÐºÑ€Ð¸Ñ‚ÐµÑ€Ð¸Ð¹:" << std::endl;
+				std::cout << "1. Ð‘ÐµÐ³ 100Ð¼" << std::endl;
+				std::cout << "2. Ð‘ÐµÐ³ 3ÐºÐ¼" << std::endl;
+				std::cout << "3. ÐŸÐ¾Ð´Ñ‚ÑÐ³Ð¸Ð²Ð°Ð½Ð¸Ñ" << std::endl;
+				std::cout << "4. ÐžÑ‚Ð¶Ð¸Ð¼Ð°Ð½Ð¸Ñ" << std::endl;
+				std::cout << "5. ÐŸÑ€Ñ‹Ð¶Ð¾Ðº" << std::endl;
 				std::cin >> vib;
 
 				if (vib != 1 && vib != 2 && vib != 3 && vib != 4 && vib != 5)   {
-					std::cout << "////Íåâåðíûé ââîä, ïîâòîðèòó ïîïûòêó////" << std::endl;
+					std::cout << "////ÐÐµÐ²ÐµÑ€Ð½Ñ‹Ð¹ Ð²Ð²Ð¾Ð´, Ð¿Ð¾Ð²Ñ‚Ð¾Ñ€Ð¸Ñ‚Ñƒ Ð¿Ð¾Ð¿Ñ‹Ñ‚ÐºÑƒ////" << std::endl;
 					vib = 0;
 				}
 			}
@@ -146,7 +146,7 @@ int main()
 				myFiltr2[i]->printCh();
 			}
 			if (myFiltr2.size() != 0) {
-				myFiltr.clear(); // î÷èùàåì âåêòîð
+				myFiltr.clear(); // Ð¾Ñ‡Ð¸Ñ‰Ð°ÐµÐ¼ Ð²ÐµÐºÑ‚Ð¾Ñ€
 				myFiltr.push_back(myFiltr2[0]);
 				for (int i = 1; i < myFiltr2.size(); i++) {
 					if (vib == 1 && myFiltr[0]->beg100 > myFiltr2[i]->beg100) myFiltr[0] = myFiltr2[i];
@@ -155,10 +155,10 @@ int main()
 					else if (vib == 4 && myFiltr[0]->otgimania < myFiltr2[i]->otgimania) myFiltr[0] = myFiltr2[i];
 					else if (vib == 5 && myFiltr[0]->podtyag < myFiltr2[i]->podtyag) myFiltr[0] = myFiltr2[i];
 				}
-				std::cout << "Îïòèìàëüíûé âûáîð:" << std::endl;
+				std::cout << "ÐžÐ¿Ñ‚Ð¸Ð¼Ð°Ð»ÑŒÐ½Ñ‹Ð¹ Ð²Ñ‹Ð±Ð¾Ñ€:" << std::endl;
 				myFiltr[0]->printCh();
 			}
-			else { std::cout << "Íåò ñïîðòñìåíîâ ïîäõîäÿùèõ äàííûì òðåáîâàíèÿì" << std::endl; }
+			else { std::cout << "ÐÐµÑ‚ ÑÐ¿Ð¾Ñ€Ñ‚ÑÐ¼ÐµÐ½Ð¾Ð² Ð¿Ð¾Ð´Ñ…Ð¾Ð´ÑÑ‰Ð¸Ñ… Ð´Ð°Ð½Ð½Ñ‹Ð¼ Ñ‚Ñ€ÐµÐ±Ð¾Ð²Ð°Ð½Ð¸ÑÐ¼" << std::endl; }
 
 		}
 		else if (n == 3) {
@@ -166,17 +166,17 @@ int main()
 			do {
 				int vib = 0;
 				while (vib == 0) {
-					std::cout << "\nÂûáèðèòå êðèòåðèè ïî èõ îòíîñèòåëüíîé âàæíîñòè (íà÷èíàÿ ñ ñàìîãî âàæíîãî)" << std::endl;
-					std::cout << "1. Áåã 100ì" << std::endl;
-					std::cout << "2. Áåã 3êì" << std::endl;
-					std::cout << "3. Ïîäòÿãèâàíèÿ" << std::endl;
-					std::cout << "4. Îòæèìàíèÿ" << std::endl;
-					std::cout << "5. Ïðûæîê" << std::endl;
-					std::cout << "\n\nÂâîä: ";
+					std::cout << "\nÐ’Ñ‹Ð±Ð¸Ñ€Ð¸Ñ‚Ðµ ÐºÑ€Ð¸Ñ‚ÐµÑ€Ð¸Ð¸ Ð¿Ð¾ Ð¸Ñ… Ð¾Ñ‚Ð½Ð¾ÑÐ¸Ñ‚ÐµÐ»ÑŒÐ½Ð¾Ð¹ Ð²Ð°Ð¶Ð½Ð¾ÑÑ‚Ð¸ (Ð½Ð°Ñ‡Ð¸Ð½Ð°Ñ Ñ ÑÐ°Ð¼Ð¾Ð³Ð¾ Ð²Ð°Ð¶Ð½Ð¾Ð³Ð¾)" << std::endl;
+					std::cout << "1. Ð‘ÐµÐ³ 100Ð¼" << std::endl;
+					std::cout << "2. Ð‘ÐµÐ³ 3ÐºÐ¼" << std::endl;
+					std::cout << "3. ÐŸÐ¾Ð´Ñ‚ÑÐ³Ð¸Ð²Ð°Ð½Ð¸Ñ" << std::endl;
+					std::cout << "4. ÐžÑ‚Ð¶Ð¸Ð¼Ð°Ð½Ð¸Ñ" << std::endl;
+					std::cout << "5. ÐŸÑ€Ñ‹Ð¶Ð¾Ðº" << std::endl;
+					std::cout << "\n\nÐ’Ð²Ð¾Ð´: ";
 					std::cin >> vib;
 
 					if (vib != 1 && vib != 2 && vib != 3 && vib != 4 && vib != 5) {
-						std::cout << "////Íåâåðíûé ââîä, ïîâòîðèòó ïîïûòêó////" << std::endl;
+						std::cout << "////ÐÐµÐ²ÐµÑ€Ð½Ñ‹Ð¹ Ð²Ð²Ð¾Ð´, Ð¿Ð¾Ð²Ñ‚Ð¾Ñ€Ð¸Ñ‚Ñƒ Ð¿Ð¾Ð¿Ñ‹Ñ‚ÐºÑƒ////" << std::endl;
 						vib = 0;
 					}
 				}
@@ -202,7 +202,7 @@ int main()
 			
 		}
 		else {
-			std::cout << "//////Íåâåðíûé âûáîð âàðèàíòà, ïîâòîðèòå ïîïûòêó///////" << std::endl;
+			std::cout << "//////ÐÐµÐ²ÐµÑ€Ð½Ñ‹Ð¹ Ð²Ñ‹Ð±Ð¾Ñ€ Ð²Ð°Ñ€Ð¸Ð°Ð½Ñ‚Ð°, Ð¿Ð¾Ð²Ñ‚Ð¾Ñ€Ð¸Ñ‚Ðµ Ð¿Ð¾Ð¿Ñ‹Ñ‚ÐºÑƒ///////" << std::endl;
 			n = 0;
 		}
 
@@ -223,31 +223,31 @@ void kriteriu(std::vector<Sportsmen*> &mySp, std::vector<Sportsmen*> &myFiltr, s
 
 	
 
-	std::cout << "\nÂûáèðèòå "<<k<<" êðèòåðèé: " << std::endl;
-	std::cout << "1. Áåã 100ì" << std::endl;
-	std::cout << "2. Áåã 3êì" << std::endl;
-	std::cout << "3. Ïîäòÿãèâàíèÿ" << std::endl;
-	std::cout << "4. Îòæèìàíèÿ" << std::endl;
-	std::cout << "5. Ïðûæîê" << std::endl;
+	std::cout << "\nÐ’Ñ‹Ð±Ð¸Ñ€Ð¸Ñ‚Ðµ "<<k<<" ÐºÑ€Ð¸Ñ‚ÐµÑ€Ð¸Ð¹: " << std::endl;
+	std::cout << "1. Ð‘ÐµÐ³ 100Ð¼" << std::endl;
+	std::cout << "2. Ð‘ÐµÐ³ 3ÐºÐ¼" << std::endl;
+	std::cout << "3. ÐŸÐ¾Ð´Ñ‚ÑÐ³Ð¸Ð²Ð°Ð½Ð¸Ñ" << std::endl;
+	std::cout << "4. ÐžÑ‚Ð¶Ð¸Ð¼Ð°Ð½Ð¸Ñ" << std::endl;
+	std::cout << "5. ÐŸÑ€Ñ‹Ð¶Ð¾Ðº" << std::endl;
 
-	int t = 0; //íîìåð êðèòåðèÿ
+	int t = 0; //Ð½Ð¾Ð¼ÐµÑ€ ÐºÑ€Ð¸Ñ‚ÐµÑ€Ð¸Ñ
 	
 	while (t == 0) {
-		std::cout << "\n\nÂâîä:";
+		std::cout << "\n\nÐ’Ð²Ð¾Ð´:";
 		std::cin >> t;
 		
 		if (h == 1){
-			std::cout << "\n\nÂâåäèòå êàêóþ ãðàíèöó âû óñòàíîâèòå:" << std::endl;
-			std::cout << "1. Âåðõíÿÿ" << std::endl;
-			std::cout << "2. Íèæíÿÿ" << std::endl;
+			std::cout << "\n\nÐ’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ°ÐºÑƒÑŽ Ð³Ñ€Ð°Ð½Ð¸Ñ†Ñƒ Ð²Ñ‹ ÑƒÑÑ‚Ð°Ð½Ð¾Ð²Ð¸Ñ‚Ðµ:" << std::endl;
+			std::cout << "1. Ð’ÐµÑ€Ñ…Ð½ÑÑ" << std::endl;
+			std::cout << "2. ÐÐ¸Ð¶Ð½ÑÑ" << std::endl;
 
 		}
-		int fl = 0; // âåðõíÿÿ/íèæíÿÿ ãðàíèöà
+		int fl = 0; // Ð²ÐµÑ€Ñ…Ð½ÑÑ/Ð½Ð¸Ð¶Ð½ÑÑ Ð³Ñ€Ð°Ð½Ð¸Ñ†Ð°
 
 		while (fl == 0)
 		{
 			if(h == 1){
-				std::cout << "\n\nÂâîä:";
+				std::cout << "\n\nÐ’Ð²Ð¾Ð´:";
 				std::cin >> fl;
 			
 			}
@@ -258,9 +258,9 @@ void kriteriu(std::vector<Sportsmen*> &mySp, std::vector<Sportsmen*> &myFiltr, s
 			if (t == 1 && fl == 1 && h != 2) {
 				double beg = -1;
 				while (beg <= 0 || beg >= 15000) {
-					std::cout << "Ââåäèòå âåðõíþþ ãðàíèöó(cåê): ";
+					std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²ÐµÑ€Ñ…Ð½ÑŽÑŽ Ð³Ñ€Ð°Ð½Ð¸Ñ†Ñƒ(cÐµÐº): ";
 					std::cin >> beg;
-					if (beg <= 0 || beg >= 15000) { std::cout << "////Íåâåðíûé ââîä, ïîâòîðèòó ïîïûòêó////" << std::endl; }
+					if (beg <= 0 || beg >= 15000) { std::cout << "////ÐÐµÐ²ÐµÑ€Ð½Ñ‹Ð¹ Ð²Ð²Ð¾Ð´, Ð¿Ð¾Ð²Ñ‚Ð¾Ñ€Ð¸Ñ‚Ñƒ Ð¿Ð¾Ð¿Ñ‹Ñ‚ÐºÑƒ////" << std::endl; }
 				}
 
 				for (int i = 0; i < mySp.size(); i++) {
@@ -273,9 +273,9 @@ void kriteriu(std::vector<Sportsmen*> &mySp, std::vector<Sportsmen*> &myFiltr, s
 			else if (t == 1 && fl == 2) {
 				double beg = -1;
 				while (beg <= 0 || beg >= 15000) {
-					std::cout << "Ââåäèòå íèæíþþ ãðàíèöó(cåê): " ;
+					std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¸Ð¶Ð½ÑŽÑŽ Ð³Ñ€Ð°Ð½Ð¸Ñ†Ñƒ(cÐµÐº): " ;
 					std::cin >> beg;
-					if (beg <= 0 || beg >= 15000) { std::cout << "////Íåâåðíûé ââîä, ïîâòîðèòó ïîïûòêó////" << std::endl; }
+					if (beg <= 0 || beg >= 15000) { std::cout << "////ÐÐµÐ²ÐµÑ€Ð½Ñ‹Ð¹ Ð²Ð²Ð¾Ð´, Ð¿Ð¾Ð²Ñ‚Ð¾Ñ€Ð¸Ñ‚Ñƒ Ð¿Ð¾Ð¿Ñ‹Ñ‚ÐºÑƒ////" << std::endl; }
 				}
 
 				for (int i = 0; i < mySp.size(); i++) {
@@ -288,9 +288,9 @@ void kriteriu(std::vector<Sportsmen*> &mySp, std::vector<Sportsmen*> &myFiltr, s
 			else if (t == 2 && fl == 1 && h != 2) {
 				double beg = -1;
 				while (beg <= 0 || beg >= 15000) {
-					std::cout << "Ââåäèòå âåðõíþþ ãðàíèöó(ìèí): ";
+					std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²ÐµÑ€Ñ…Ð½ÑŽÑŽ Ð³Ñ€Ð°Ð½Ð¸Ñ†Ñƒ(Ð¼Ð¸Ð½): ";
 					std::cin >> beg;
-					if (beg <= 0 || beg >= 15000) { std::cout << "////Íåâåðíûé ââîä, ïîâòîðèòó ïîïûòêó////" << std::endl; }
+					if (beg <= 0 || beg >= 15000) { std::cout << "////ÐÐµÐ²ÐµÑ€Ð½Ñ‹Ð¹ Ð²Ð²Ð¾Ð´, Ð¿Ð¾Ð²Ñ‚Ð¾Ñ€Ð¸Ñ‚Ñƒ Ð¿Ð¾Ð¿Ñ‹Ñ‚ÐºÑƒ////" << std::endl; }
 				}
 
 				for (int i = 0; i < mySp.size(); i++) {
@@ -303,9 +303,9 @@ void kriteriu(std::vector<Sportsmen*> &mySp, std::vector<Sportsmen*> &myFiltr, s
 			else if (t == 2 && fl == 2) {
 				double beg = -1;
 				while (beg <= 0 || beg >= 15000) {
-					std::cout << "Ââåäèòå íèæíþþ ãðàíèöó(ìèí): " ;
+					std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¸Ð¶Ð½ÑŽÑŽ Ð³Ñ€Ð°Ð½Ð¸Ñ†Ñƒ(Ð¼Ð¸Ð½): " ;
 					std::cin >> beg;
-					if (beg <= 0 || beg >= 15000) { std::cout << "////Íåâåðíûé ââîä, ïîâòîðèòó ïîïûòêó////" << std::endl; }
+					if (beg <= 0 || beg >= 15000) { std::cout << "////ÐÐµÐ²ÐµÑ€Ð½Ñ‹Ð¹ Ð²Ð²Ð¾Ð´, Ð¿Ð¾Ð²Ñ‚Ð¾Ñ€Ð¸Ñ‚Ñƒ Ð¿Ð¾Ð¿Ñ‹Ñ‚ÐºÑƒ////" << std::endl; }
 				}
 
 				for (int i = 0; i < mySp.size(); i++) {
@@ -318,9 +318,9 @@ void kriteriu(std::vector<Sportsmen*> &mySp, std::vector<Sportsmen*> &myFiltr, s
 			else if (t == 3 && fl == 1 && h != 2) {
 				int pod = -1;
 				while (pod <= 0 || pod >= 15000) {
-					std::cout << "Ââåäèòå âåðõíþþ ãðàíèöó: " ;
+					std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²ÐµÑ€Ñ…Ð½ÑŽÑŽ Ð³Ñ€Ð°Ð½Ð¸Ñ†Ñƒ: " ;
 					std::cin >> pod;
-					if (pod <= 0 || pod >= 15000) { std::cout << "////Íåâåðíûé ââîä, ïîâòîðèòó ïîïûòêó////" << std::endl; }
+					if (pod <= 0 || pod >= 15000) { std::cout << "////ÐÐµÐ²ÐµÑ€Ð½Ñ‹Ð¹ Ð²Ð²Ð¾Ð´, Ð¿Ð¾Ð²Ñ‚Ð¾Ñ€Ð¸Ñ‚Ñƒ Ð¿Ð¾Ð¿Ñ‹Ñ‚ÐºÑƒ////" << std::endl; }
 				}
 
 				for (int i = 0; i < mySp.size(); i++) {
@@ -334,9 +334,9 @@ void kriteriu(std::vector<Sportsmen*> &mySp, std::vector<Sportsmen*> &myFiltr, s
 			else if (t == 3 && fl == 2) {
 				int pod = -1;
 				while (pod <= 0 || pod >= 15000) {
-					std::cout << "Ââåäèòå íèæíþþ ãðàíèöó: " ;
+					std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¸Ð¶Ð½ÑŽÑŽ Ð³Ñ€Ð°Ð½Ð¸Ñ†Ñƒ: " ;
 					std::cin >> pod;
-					if (pod <= 0 || pod >= 15000) { std::cout << "////Íåâåðíûé ââîä, ïîâòîðèòó ïîïûòêó////" << std::endl; }
+					if (pod <= 0 || pod >= 15000) { std::cout << "////ÐÐµÐ²ÐµÑ€Ð½Ñ‹Ð¹ Ð²Ð²Ð¾Ð´, Ð¿Ð¾Ð²Ñ‚Ð¾Ñ€Ð¸Ñ‚Ñƒ Ð¿Ð¾Ð¿Ñ‹Ñ‚ÐºÑƒ////" << std::endl; }
 				}
 
 				for (int i = 0; i < mySp.size(); i++) {
@@ -350,9 +350,9 @@ void kriteriu(std::vector<Sportsmen*> &mySp, std::vector<Sportsmen*> &myFiltr, s
 			else if (t == 4 && fl == 1 && h != 2) {
 				int otgim = -1;
 				while (otgim <= 0 || otgim >= 15000) {
-					std::cout << "Ââåäèòå âåðõíþþ ãðàíèöó: " ;
+					std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²ÐµÑ€Ñ…Ð½ÑŽÑŽ Ð³Ñ€Ð°Ð½Ð¸Ñ†Ñƒ: " ;
 					std::cin >> otgim;
-					if (otgim <= 0 || otgim >= 15000) { std::cout << "////Íåâåðíûé ââîä, ïîâòîðèòó ïîïûòêó////" << std::endl; }
+					if (otgim <= 0 || otgim >= 15000) { std::cout << "////ÐÐµÐ²ÐµÑ€Ð½Ñ‹Ð¹ Ð²Ð²Ð¾Ð´, Ð¿Ð¾Ð²Ñ‚Ð¾Ñ€Ð¸Ñ‚Ñƒ Ð¿Ð¾Ð¿Ñ‹Ñ‚ÐºÑƒ////" << std::endl; }
 				}
 
 				for (int i = 0; i < mySp.size(); i++) {
@@ -365,9 +365,9 @@ void kriteriu(std::vector<Sportsmen*> &mySp, std::vector<Sportsmen*> &myFiltr, s
 			else if (t == 4 && fl == 2) {
 				int otgim = -1;
 				while (otgim <= 0 || otgim >= 15000) {
-					std::cout << "Ââåäèòå íèæíþþ ãðàíèöó: " ;
+					std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¸Ð¶Ð½ÑŽÑŽ Ð³Ñ€Ð°Ð½Ð¸Ñ†Ñƒ: " ;
 					std::cin >> otgim;
-					if (otgim <= 0 || otgim >= 15000) { std::cout << "////Íåâåðíûé ââîä, ïîâòîðèòó ïîïûòêó////" << std::endl; }
+					if (otgim <= 0 || otgim >= 15000) { std::cout << "////ÐÐµÐ²ÐµÑ€Ð½Ñ‹Ð¹ Ð²Ð²Ð¾Ð´, Ð¿Ð¾Ð²Ñ‚Ð¾Ñ€Ð¸Ñ‚Ñƒ Ð¿Ð¾Ð¿Ñ‹Ñ‚ÐºÑƒ////" << std::endl; }
 				}
 
 				for (int i = 0; i < mySp.size(); i++) {
@@ -380,9 +380,9 @@ void kriteriu(std::vector<Sportsmen*> &mySp, std::vector<Sportsmen*> &myFiltr, s
 			else if (t == 5 && fl == 1 && h != 2) {
 				double prig = -1;
 				while (prig <= 0 || prig >= 15000) {
-					std::cout << "Ââåäèòå âåðõíþþ ãðàíèöó: " ;
+					std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²ÐµÑ€Ñ…Ð½ÑŽÑŽ Ð³Ñ€Ð°Ð½Ð¸Ñ†Ñƒ: " ;
 					std::cin >> prig;
-					if (prig <= 0 || prig >= 15000) { std::cout << "////Íåâåðíûé ââîä, ïîâòîðèòó ïîïûòêó////" << std::endl; }
+					if (prig <= 0 || prig >= 15000) { std::cout << "////ÐÐµÐ²ÐµÑ€Ð½Ñ‹Ð¹ Ð²Ð²Ð¾Ð´, Ð¿Ð¾Ð²Ñ‚Ð¾Ñ€Ð¸Ñ‚Ñƒ Ð¿Ð¾Ð¿Ñ‹Ñ‚ÐºÑƒ////" << std::endl; }
 				}
 
 				for (int i = 0; i < mySp.size(); i++) {
@@ -395,9 +395,9 @@ void kriteriu(std::vector<Sportsmen*> &mySp, std::vector<Sportsmen*> &myFiltr, s
 			else if (t == 5 && fl == 2) {
 				double prig = -1;
 				while (prig <= 0 || prig >= 15000) {
-					std::cout << "Ââåäèòå íèæíþþ ãðàíèöó: " ;
+					std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¸Ð¶Ð½ÑŽÑŽ Ð³Ñ€Ð°Ð½Ð¸Ñ†Ñƒ: " ;
 					std::cin >> prig;
-					if (prig <= 0 || prig >= 15000) { std::cout << "////Íåâåðíûé ââîä, ïîâòîðèòó ïîïûòêó////" << std::endl; }
+					if (prig <= 0 || prig >= 15000) { std::cout << "////ÐÐµÐ²ÐµÑ€Ð½Ñ‹Ð¹ Ð²Ð²Ð¾Ð´, Ð¿Ð¾Ð²Ñ‚Ð¾Ñ€Ð¸Ñ‚Ñƒ Ð¿Ð¾Ð¿Ñ‹Ñ‚ÐºÑƒ////" << std::endl; }
 				}
 
 				for (int i = 0; i < mySp.size(); i++) {
@@ -408,7 +408,7 @@ void kriteriu(std::vector<Sportsmen*> &mySp, std::vector<Sportsmen*> &myFiltr, s
 				if (k == 1) { kriteriu(myFiltr, myFiltr2, mySp, 2, h); }
 			}
 			else {
-				std::cout << "//////Íåâåðíûé âûáîð âàðèàíòà, ïîâòîðèòå ïîïûòêó///////" << std::endl;
+				std::cout << "//////ÐÐµÐ²ÐµÑ€Ð½Ñ‹Ð¹ Ð²Ñ‹Ð±Ð¾Ñ€ Ð²Ð°Ñ€Ð¸Ð°Ð½Ñ‚Ð°, Ð¿Ð¾Ð²Ñ‚Ð¾Ñ€Ð¸Ñ‚Ðµ Ð¿Ð¾Ð¿Ñ‹Ñ‚ÐºÑƒ///////" << std::endl;
 				t = 0;
 			}
 		}
